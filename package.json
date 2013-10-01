@@ -1,0 +1,29 @@
+{
+  "name": "require-sdk",
+  "version": "0.0.0",
+  "description": "JavaScript library for making sure given SDK is loaded and executed. Designed for popular APIs like Youtube, Rdio, Soundcloud etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "dependencies": {
+    "load-script": "*",
+    "pubsub": "0.0.5"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "keywords": [
+    "sdk",
+    "javascript",
+    "require",
+    "load",
+    "script"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/require-sdk.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
