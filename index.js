@@ -20,7 +20,7 @@ function requireSDK (url, global) {
 
   function load (callback) {
     if (isAlreadyLoaded() || isLoaded) {
-      return callback(undefined, window[global]);
+      return callback && callback(undefined, window[global]);
     }
 
     callback && onReady.subscribe(callback);
