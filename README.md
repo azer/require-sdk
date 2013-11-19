@@ -41,3 +41,9 @@ Manually trigger the load event if custom conditions required:
 var requireFoo = requireSDK('https://youtube.com/iframe_api', 'YT')
 window.onYouTubeIframeAPIReady = requireFoo.trigger() // load event delays until onYouTubeIframeAPIReady is called
 ```
+
+## Libraries Based On It
+
+* [rdio-js-api](http://github.com/azer/rdio-js-api)
+* [soundcloud-stream](http://github.com/azer/soundcloud-stream)
+* [youtube-video](http://github.com/azer/youtube-video)
