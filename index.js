@@ -29,6 +29,8 @@ function requireSDK (url, global) {
 
     isLoading = true;
 
+    if (!url) return;
+
     loadScript(url, function (error) {
       if (hasManualTrigger) return;
 
