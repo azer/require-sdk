@@ -1,6 +1,6 @@
 {
   "name": "require-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript library for making sure given SDK is loaded and executed. Designed for popular APIs like Youtube, Rdio, Soundcloud etc.",
   "main": "index.js",
   "scripts": {
